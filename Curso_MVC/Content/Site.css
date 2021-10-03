@@ -12,6 +12,10 @@
     white-space: normal;
 }
 
+.navbar-nav {
+    background-color: black;
+}
+
 input,
 select,
 textarea {

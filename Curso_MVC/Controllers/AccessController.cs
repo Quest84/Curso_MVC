@@ -19,7 +19,7 @@ namespace Curso_MVC.Controllers
         {
             try
             {
-                using (CursoMVCEntities1 db = new CursoMVCEntities1())
+                using (CursoMVCEntities db = new CursoMVCEntities())
                 {
                     var lst = from d in db.user
                               where d.email == user && d.password == password 
